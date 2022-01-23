@@ -1,8 +1,9 @@
 # Using ReactJs In One Mvc View (ASP.NET Core - .NET 6)
 
-> ÅÓÊÎÏÇã ReactJs İì ÕİÍÉ æÇÍÏÉ ÏÇÎá ãÔÑæÚ MVC Core .NET 6
+> Ø¥Ø³ØªØ®Ø¯Ø§Ù… ReactJs Ø¯Ø§Ø®Ù„ ØµÙØ­Ø© ÙˆØ§Ø­Ø¯Ø© ÙÙ‰ MVC Core .NET 6
 
-## ValuesController.cs 
+## ValuesController.cs
+
 ```
     [Route("api/[controller]")]
     [ApiController]
@@ -34,7 +35,7 @@
     </div>
 ```
 
-## Scripts Section in Values.cshtml 
+## Scripts Section in Values.cshtml
 
 ```
     @section Scripts
@@ -104,4 +105,3 @@
         document.getElementById('values-list')
     );
 ```
-
