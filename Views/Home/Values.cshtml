@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Values";
+}
+
+<h1>Values List</h1>
+
+<div class='row'>
+    <div id="values-list" class="col-3">
+        <!-- React Component will render here and replace the following code -->
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts
+{
+    <environment include="Development">
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    </environment>
+    <environment include="Production">
+        <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    </environment>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel" src="/app/js/values-list.component.js"></script>
+}
