@@ -4,7 +4,7 @@
 
 ## ValuesController.cs
 
-```
+```c#
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
@@ -24,7 +24,7 @@
 
 ## Values.cshtml
 
-```
+```html
     <div class='row'>
         <div id="values-list" class="col-3">
             <!-- React Component will render here and replace the following code -->
@@ -37,7 +37,7 @@
 
 ## Scripts Section in Values.cshtml
 
-```
+```HTML+Razor
     @section Scripts
     {
         <environment include="Development">
@@ -56,7 +56,7 @@
 
 ## Values-list.component.js
 
-```
+```javascript
     class ValuesList extends React.Component {
         constructor(props) {
             super(props);
